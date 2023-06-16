@@ -1,23 +1,38 @@
-html{
-
-}
+html, body { height: 100% !important }
 .subcontent{
-    width: 350px;
+    width: 300px;
 }
 .user_details{
     width: inherit;
 }
 input{
     width: 100%;
-    height: 45px;
+    height: 35px;
     margin-bottom: 5px;
     border: 1px solid #dee2e6;
     border-radius: 5px;
 }
+.illustration{
+    align-self: center;
+}
 .mainframe{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    align-items: center;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
+}
+.subcontent{
+    height: 443.5px;
+}
+.subframe{
+    border-radius: 5px;
+    box-shadow: rgba(177, 177, 177,0.3) 0px 1px 2px 0px, rgba(188, 188, 188,0.1) 0px 2px 6px 2px;
+    width: 80vw;
+}
+.six9{
+    height: 96px;
 }
 
 .signup{
@@ -43,6 +58,8 @@ input{
     margin-bottom: 5px;
 }
 span{
+    text-align: center;
+    font-size: small;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
 }

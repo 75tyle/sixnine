@@ -12,7 +12,6 @@ import { RegistrationModule } from './registration/registration.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RegistrationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

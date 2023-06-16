@@ -2,7 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-
+import { RegistrationRoutingModule } from './registration-routing.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -11,11 +13,11 @@ import { SignupComponent } from './signup/signup.component';
     SignupComponent
   ],
   imports: [
-    CommonModule
-  ],
-  exports: [
-    LoginComponent,
-    SignupComponent
+    CommonModule,
+    RegistrationRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ]
 })
 export class RegistrationModule { }
